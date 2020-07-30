@@ -19,7 +19,7 @@ const SIZEY: usize = 20;
 
 
 fn main() -> Result<(), Error> {
-    let matches = App::new("Coway's Game of life implementation")
+    let matches = App::new("Conway's Game of life implementation")
         .version("0.1.0")
         .author("Igor Chervatyuk <ichervatyuk@gmail.com>")
         .about("Simple tool that reads points' coordinates from seed file and runs Conway's Game of life simulation. Sample seed file goes with the program.")
