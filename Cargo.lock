@@ -809,7 +809,8 @@ dependencies = [
 [[package]]
 name = "pistoncore-glutin_window"
 version = "0.65.0"
-source = "git+https://github.com/PistonDevelopers/glutin_window#f18e443cf20f7eddc3c9838dacd705ec0e3de826"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "174a3d043354e0454d85a83e5283d9a97c4a5beb4f0857effbd4907a61a9ad33"
 dependencies = [
  "gl",
  "glutin",
