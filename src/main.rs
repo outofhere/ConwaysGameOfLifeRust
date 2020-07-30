@@ -54,7 +54,7 @@ fn main() -> Result<(), Error> {
 
     let opengl = OpenGL::V3_2;
     let mut window: GlutinWindow = WindowSettings::new(
-        "Convay",
+        "Conway",
         [500; 2]
     ).graphics_api(opengl)
         .exit_on_esc(true)
