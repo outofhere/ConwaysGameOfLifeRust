@@ -27,7 +27,7 @@ fn main() -> Result<(), Error> {
             .short("f")
             .long("file")
             .takes_value(true)
-            .help("Input file with seed. Should be split by colon as follows:\n x1:y1\nx2:y2"))
+            .help("Input file with seed. Should be split by colon as follows:\n x1:y1\n x2:y2\n x3:y3"))
         .get_matches();
 
     // Vector for initial seed read from seed file.
